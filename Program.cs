@@ -14,8 +14,8 @@ if (person1.name == "Андрій"&&person1.surname == "Ємчук")
     person1.expirience = 2;
     person1.role = "senior";
     person1.salary = 40000;
-    person1.wage = (5/100)*person1.salary;
-    person1.tax = (18/100)*person1.salary;
+    person1.wage = (5/100.0f)*person1.salary;
+    person1.tax = (15/100.0f)*person1.salary;
     person1.Print();
 }
 else
